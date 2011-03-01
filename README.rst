@@ -9,9 +9,11 @@ require pear/HTTP_Request2
 --------------------------------------------------------------------------------
 
 
- Get today's lunch menu
+Get today's lunch menu
 ================================================================================
+
 ::
+
     $sakusui = new Wozozo_Sakusui;
     $lunchMenus = $sakusui->getLunchMenu(new DateTime('today'));
     // Array
